@@ -32,7 +32,9 @@ The semantic enrichment of the dataset focusing on the GOLPH3 gene involved cros
 We utilized an ontology matcher to align the phenotypic terms present in the dataset with corresponding terms in the DOID and MONDO ontologies. The matcher searched through all synonyms available in the ontology classes to ensure comprehensive matching and appended the IRI class IDs to the dataset.
 
 ## Results
-The semantic enrichment process yielded improvements in data interoperability and discoverability:
+The semantic enrichment output datasets can be found in `\data` folder as:
+- [`golph3_doid_match.csv`](data/golph3_doid_match.csv)
+- [`golph3_mondo_match.csv`](data/golph3_mondo_match.csv)
 
 ### Matched Terms
 Through the ontology matching process, a considerable number of phenotypic terms were successfully matched to disease ontology terms. Specifically, out of the total phenotypic terms present in the dataset, **68%** were matched with DOID terms and **100%** with MONDO terms.
